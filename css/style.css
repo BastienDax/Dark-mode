@@ -1,0 +1,19 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#main{	
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	text-align: center;
+	padding: 300px;
+}
+
+:root{
+	--bg-color: #FFF;
+	--text-color: #000;
+}
+
+#dark-mode-toggle:checked + #main {
+	--bg-color: #26242E;
+	--text-color: #FFF;
+}
